@@ -55,7 +55,7 @@ reconfigure
 
 Enabling ‘xp_cmdshell’ in the SQL Server gave us access to this handy feature. With it enabled, we looked around the file directory and found the user flag:
 ```
-xp_cmdshell (powershell -c type C:/Users/sql_svc/Desktop/user.==txt==)
+xp_cmdshell (powershell -c type C:/Users/sql_svc/Desktop/user.txt)
 ```
 
 ![](https://miro.medium.com/v2/resize:fit:875/1*O7gWibMtlP1dsE0BhNq-lQ.png)
